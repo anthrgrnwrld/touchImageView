@@ -14,6 +14,7 @@
 		36265BB91C96B94A00C49FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36265BB71C96B94A00C49FE8 /* LaunchScreen.storyboard */; };
 		36265BC41C96B94A00C49FE8 /* UIImageViewTouchEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36265BC31C96B94A00C49FE8 /* UIImageViewTouchEventTests.swift */; };
 		36265BCF1C96B94A00C49FE8 /* UIImageViewTouchEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36265BCE1C96B94A00C49FE8 /* UIImageViewTouchEventUITests.swift */; };
+		36265BDD1C96B97000C49FE8 /* TouchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36265BDC1C96B97000C49FE8 /* TouchImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		36265BCA1C96B94A00C49FE8 /* UIImageViewTouchEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewTouchEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36265BCE1C96B94A00C49FE8 /* UIImageViewTouchEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewTouchEventUITests.swift; sourceTree = "<group>"; };
 		36265BD01C96B94A00C49FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36265BDC1C96B97000C49FE8 /* TouchImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchImageView.swift; path = ../TouchImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				36265BAE1C96B94A00C49FE8 /* AppDelegate.swift */,
 				36265BB01C96B94A00C49FE8 /* ViewController.swift */,
+				36265BDC1C96B97000C49FE8 /* TouchImageView.swift */,
 				36265BB21C96B94A00C49FE8 /* Main.storyboard */,
 				36265BB51C96B94A00C49FE8 /* Assets.xcassets */,
 				36265BB71C96B94A00C49FE8 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				36265BB11C96B94A00C49FE8 /* ViewController.swift in Sources */,
 				36265BAF1C96B94A00C49FE8 /* AppDelegate.swift in Sources */,
+				36265BDD1C96B97000C49FE8 /* TouchImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
